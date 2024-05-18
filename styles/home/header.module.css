@@ -1,0 +1,47 @@
+.content {
+    width: 100%;
+    position: absolute;
+    z-index: 100
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links ul {
+    display: flex;
+}
+
+.links ul li {
+    margin-right: 10px ;
+}
+.links ul li a {
+    color: var(--white);
+    font-size: var(--fz-md);
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
