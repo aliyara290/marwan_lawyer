@@ -7,10 +7,10 @@ const Header = () => {
             <div className={style.container}>
                 <div className={style.logo}>
                     <Image 
-                    src={'/images/logo.png'}
+                    src={'/images/logo.svg'}
                     alt='pic'
-                    width={130}
-                    height={130}
+                    width={200}
+                    height={200}
                     />
                 </div>
                 <div className={style.links}>

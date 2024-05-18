@@ -9,6 +9,7 @@ export default function Document() {
           name="description"
           content="سمايلي هي عيادة أسنان متخصصة في تحقيق الابتسامات الجميلة وتوفير خدمات طب الأسنان عالية الجودة. زورونا اليوم للحصول على أسنان صحية وجميلة."
         />
+        <link rel="preload" href="LyonArabicDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin></link>
         <link type="image/x-icon" rel="icon" href="/favicon.svg" />
         <meta name="theme-color" content="#0080F7"></meta>
 

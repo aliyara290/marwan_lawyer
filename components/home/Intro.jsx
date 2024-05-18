@@ -1,0 +1,48 @@
+import style from "@/styles/home/intro.module.css";
+import Image from "next/image";
+
+const Intro = () => {
+  return (
+    <div className={style.content}>
+      <div className={style.container}>
+        <div className={style.about}>
+          <div className={style.heading}>
+            <h1>المحامي والموثقي سليمان بن عبد العزيز</h1>
+          </div>
+          <div className={style.paragraph}>
+            <p>
+              يقوم مكتب المحامي والموثق موسى النشمي للمحاماة والاستشارات الشرعية
+              والقانونية منذ تأسيسه وحتى الآن بدور فعال في تقديم النصح والمشورة
+              في كافة المجالات القانونية والشرعية المرتبطة بالشركات والمؤسسات
+              وحتى الأفراد بتوفير الحماية القانونية لهم من خلال نخبة من المحامين
+              والمستشارين من ذوي الكفاءة والخبرة من الناحية العلمية والعملية.
+            </p>
+            <br />
+            <p>
+              كما نسعى إلى توفير الحماية القانونية للشركات المحلية والأجنبية
+              والأفراد وتقديم الاستشارات في مختلف المجالات القانونية.
+            </p>
+          </div>
+          <div className={style.dots}>
+            <Image 
+            src={'/images/small-dots.svg'}
+            alt="pic"
+            width={400}
+            height={400}
+            />
+          </div>
+        </div>
+        <div className={style.pic}>
+          <Image
+            src={"/images/person.jpg"}
+            alt="pic"
+            width={600}
+            height={600}
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Intro;

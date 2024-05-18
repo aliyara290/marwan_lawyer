@@ -8,16 +8,11 @@
   margin: 0;
   -webkit-tap-highlight-color: transparent;
 }
-svg.active {
-  rotate: 45deg;
-}
 :root {
-  --blue: #0080F7;
-  --dark-blue: #0357a4;
-  --light-blue: #E4F4F9;
+  --gold: #C6993B;
   --white: #fff;
   --grey: #3c3c3c;
-  --dark: #161616;
+  --dark: #070402;
 
   --fz-xxxs: 11px;
   --fz-xxs: 12px;
@@ -185,3 +180,59 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Lyon';
+  src: url('../fonts/lyon/LyonArabicDisplay-Bold.eot');
+  src: url('../fonts/lyon/LyonArabicDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/lyon/LyonArabicDisplay-Bold.woff2') format('woff2'),
+      url('../fonts/lyon/LyonArabicDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lyon';
+  src: url('../fonts/lyon/LyonArabicDisplay-Light.eot');
+  src: url('../fonts/lyon/LyonArabicDisplay-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/lyon/LyonArabicDisplay-Light.woff2') format('woff2'),
+      url('../fonts/lyon/LyonArabicDisplay-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lyon';
+  src: url('../fonts/lyon/LyonArabicDisplay-Medium.eot');
+  src: url('../fonts/lyon/LyonArabicDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/lyon/LyonArabicDisplay-Medium.woff2') format('woff2'),
+      url('../fonts/lyon/LyonArabicDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lyon';
+  src: url('../fonts/lyon/LyonArabicDisplay-Regular.eot');
+  src: url('../fonts/lyon/LyonArabicDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/lyon/LyonArabicDisplay-Regular.woff2') format('woff2'),
+      url('../fonts/lyon/LyonArabicDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lyon';
+  src: url('../fonts/lyon/LyonArabicDisplay-Black.eot');
+  src: url('../fonts/lyon/LyonArabicDisplay-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/lyon/LyonArabicDisplay-Black.woff2') format('woff2'),
+      url('../fonts/lyon/LyonArabicDisplay-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
