@@ -1,68 +1,73 @@
 .content {
-    width: 100%;
-    padding: 200px 0 0;
-    position: relative;
-    background-color: var(--grey);
-    border-top: 5px solid var(--gold);
+  width: 100%;
+  padding: 200px 0 0;
+  position: relative;
+  background-color: var(--grey);
+  border-top: 5px solid var(--gold);
 }
 .container {
-    width: 85%;
-    margin: 0 auto;
-    height: 100%;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    gap: 40px;
-    padding-bottom: 150px;
+  width: 85%;
+  margin: 0 auto;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 40px;
+  padding-bottom: 150px;
 }
 .polygon {
-    width: 100%;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 5;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 5;
 }
 .polygon svg {
-    width: 100%;
+  width: 100%;
 }
 .about {
-    position: relative;
+  position: relative;
 }
 .dots {
-    position: absolute;
-    right: -30px;
-    top: -40%;
-    opacity: 0.2;
+  position: absolute;
+  right: -30px;
+  top: -40%;
+  opacity: 0.2;
 }
 .heading {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 .heading h1 {
-    font-size: var(--fz-3xl);
-    font-weight: 700;
-    color: var(--gold);
+  font-size: 2.5rem;
+  font-family: 'Bukrah';
+  font-weight: 700;
+  color: var(--gold);
+}
+.heading h1:last-child {
+    color: var(--white);
 }
 .paragraph p {
-    font-size: var(--fz-md);
-    color: var(--white);
-    line-height: 30px;
+  font-size: var(--fz-md);
+  color: var(--white);
+  line-height: 30px;
 }
 .pic {
-    height: 400px;
-    position: relative;
+  height: 600px;
+  position: relative;
+  z-index: 2;
 }
 .pic::after {
-    content: '';
-    position: absolute;
-    top: 15px;
-    left: -15px;
-    width: 100%;
-    height: 100%;
-    background-color: var(--gold);
-    z-index: -1;
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: -15px;
+  width: 100%;
+  height: 100%;
+  background-color: #513417;
+  z-index: -1;
 }
 .pic img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
 }

@@ -181,3 +181,14 @@ body {
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Bukrah';
+  src: url('../fonts/bukrah/29LTBukra-Bold.eot');
+  src: url('../fonts/bukrah/29LTBukra-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/bukrah/29LTBukra-Bold.woff2') format('woff2'),
+      url('../fonts/bukrah/29LTBukra-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+

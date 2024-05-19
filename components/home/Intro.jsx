@@ -7,7 +7,8 @@ const Intro = () => {
       <div className={style.container}>
         <div className={style.about}>
           <div className={style.heading}>
-            <h1>المحامي والموثقي سليمان بن عبد العزيز</h1>
+            <h1>المحــــــامي والـــموثــــــق</h1>
+            <h1>سليمـــان بن عبد العــزيز</h1>
           </div>
           <div className={style.paragraph}>
             <p>
@@ -34,10 +35,10 @@ const Intro = () => {
         </div>
         <div className={style.pic}>
           <Image
-            src={"/images/person.jpg"}
+            src={"/images/sulaiman.jpg"}
             alt="pic"
-            width={600}
-            height={600}
+            width={700}
+            height={700}
           />
         </div>
       </div>
