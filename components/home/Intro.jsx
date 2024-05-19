@@ -24,11 +24,11 @@ const Intro = () => {
             </p>
           </div>
           <div className={style.dots}>
-            <Image 
-            src={'/images/small-dots.svg'}
-            alt="pic"
-            width={400}
-            height={400}
+            <Image
+              src={"/images/small-dots.svg"}
+              alt="pic"
+              width={400}
+              height={400}
             />
           </div>
         </div>
@@ -40,6 +40,18 @@ const Intro = () => {
             height={600}
           />
         </div>
+      </div>
+      <div className={style.polygon}>
+
+      <svg
+        id="Layer_1"
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 93 20"
+        fill="var(--grey)"
+      >
+        <polygon class="cls-1" points="93 20 83 9 0 0 93 0 93 20" />
+      </svg>
       </div>
     </div>
   );

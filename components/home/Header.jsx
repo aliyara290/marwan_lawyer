@@ -9,8 +9,8 @@ const Header = () => {
                     <Image 
                     src={'/images/logo.svg'}
                     alt='pic'
-                    width={200}
-                    height={200}
+                    width={170}
+                    height={170}
                     />
                 </div>
                 <div className={style.links}>

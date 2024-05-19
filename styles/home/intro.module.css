@@ -1,6 +1,9 @@
 .content {
     width: 100%;
-    padding: 200px 0;
+    padding: 200px 0 0;
+    position: relative;
+    background-color: var(--grey);
+    border-top: 5px solid var(--gold);
 }
 .container {
     width: 85%;
@@ -10,6 +13,17 @@
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     gap: 40px;
+    padding-bottom: 150px;
+}
+.polygon {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 5;
+}
+.polygon svg {
+    width: 100%;
 }
 .about {
     position: relative;

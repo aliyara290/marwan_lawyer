@@ -6,22 +6,22 @@ const Hero = () => {
       <div className={style.container}>
         <div className={style.center}>
           <div className="overflow-hidden">
-            <h1>سليمان بن عبد العزيز</h1>
+            <h1>شركة سليمان بن عبد العزيز</h1>
           </div>
           <div className="overflow-hidden">
-            <h1>للمحـامات والإستشــارات</h1>
+            <h3>الفريــــــق القانونـــــــــــــي الأكثـــــــــــــر</h3>
           </div>
           <div className="overflow-hidden">
-            <h1>الشرعيــة والقـانونية</h1>
+            <h3>ثقــــــة في المملكــة العـربية السعوديــة</h3>
           </div>
-          <div className={style.bg}>
+          {/* <div className={style.bg}>
             <Image
               src={"/images/dots.svg"}
               alt="svg"
               width={200}
               height={200}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
