@@ -35,7 +35,7 @@ const Intro = () => {
         </div>
         <div className={style.pic}>
           <Image
-            src={"/images/sulaiman.jpg"}
+            src={"/images/team/mo7ami.png"}
             alt="pic"
             width={900}
             height={900}
