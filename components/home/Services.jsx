@@ -42,7 +42,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className={style.content}>
+    <div className={style.content} id="services">
       <div className={style.container}>
         <Heading
           topHeading={"خدماتنا القانونية الشاملة"}
@@ -73,6 +73,17 @@ const Services = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className={style.polygon}>
+          <svg
+            id="Layer_1"
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 701 39"
+            fill="var(--dark)"
+          >
+            <polygon points="701 39 0 39 0 39 348.71 0 701 39 701 39" />
+          </svg>
         </div>
       </div>
     </div>

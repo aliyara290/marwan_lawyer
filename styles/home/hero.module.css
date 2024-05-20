@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     position: relative;
     border-image: fill 0 linear-gradient(to top, var(--grey),  transparent);
+    background-attachment: fixed;
 }
 .container {
     width: 100%;

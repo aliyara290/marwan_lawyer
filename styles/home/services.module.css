@@ -1,8 +1,8 @@
 .content {
   width: 100%;
-  padding: 150px 0;
+  padding: 150px 0 200px;
   background-color: var(--gold);
-  background: url("/images/hero_bg.jpg");
+  background: url("/images/handshake.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,8 +44,9 @@
   flex-direction: column;
   color: aliceblue;
   padding: 40px 30px;
-  border-radius: 10px;
+  border-radius: 7px;
   transition: transform 0.4s ease;
+  border-top: 5px solid var(--gold);
 }
 
 .card:hover {
@@ -61,4 +62,12 @@
 .description p {
   line-height: 30px;
   text-align: center;
+}
+
+.polygon {
+  width: 100%;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  z-index: 10;
 }

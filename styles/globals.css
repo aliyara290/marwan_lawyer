@@ -58,7 +58,7 @@ html {
 body {
   width: 100%;
   overflow-x: hidden;
-  background-color: var(--dark);
+  background-color: var(--grey);
   font-family: "Cairo";
 }
 ::-moz-selection {

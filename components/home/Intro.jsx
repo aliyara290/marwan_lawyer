@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className={style.content}>
+    <div className={style.content} id="about">
       <div className={style.container}>
         <div className={style.about}>
           <div className={style.heading}>
@@ -37,8 +37,8 @@ const Intro = () => {
           <Image
             src={"/images/sulaiman.jpg"}
             alt="pic"
-            width={700}
-            height={700}
+            width={900}
+            height={900}
           />
         </div>
       </div>
