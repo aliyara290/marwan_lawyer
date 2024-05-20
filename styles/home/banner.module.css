@@ -1,0 +1,23 @@
+.content {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--gold);
+  background: url("/images/banner ofc.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+}
+
+.bold {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bold h1 {
+    font-size: 2.2rem;
+    font-family: 'Bukrah';
+    color: var(--white);
+    font-weight: 700;
+}

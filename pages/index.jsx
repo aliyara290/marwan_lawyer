@@ -5,6 +5,7 @@ import Services from "@/components/home/Services";
 import Achievemnt from "@/components/home/Achievement";
 import Clients from "@/components/home/Clients";
 import Team from "@/components/home/Team";
+import Banner from "@/components/home/Banner";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Achievemnt />
       <Clients />
       <Team />
+      <Banner />
     </>
   );
 }
