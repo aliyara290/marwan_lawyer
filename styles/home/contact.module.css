@@ -1,0 +1,114 @@
+.content {
+    width: 100%;
+    padding: 50px 0;
+    background: url('/images/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: #000;
+    position: relative;
+    border-image: fill 0 linear-gradient(to left, var(--dark),  transparent);
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+}
+.card {
+    position: relative;
+    z-index: 5;
+    background-color: var(--dark);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    box-shadow: 0 0 20px #00000028;
+    border-top: 5px solid var(--gold);
+}
+.card h1 {
+    font-size: var(--fz-xl);
+    font-family: 'Bukrah';
+    padding-bottom: 10px;
+    margin: 0 auto;
+    color: var(--gold);
+}
+.card span {
+    font-size: var(--fz-xs);
+    padding-bottom: 30px;
+    margin: 0 auto;
+    color: var(--white);
+
+}
+.row {
+    width: 100%;
+}
+.row input::placeholder {
+    color: #b2b2b2;
+}
+.row textarea::placeholder {
+    color: #b2b2b2;
+}
+.row input {
+    width: 400px;
+    height: 50px;
+    background-color: var(--grey);
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: var(--white);
+}
+.row textarea {
+    width: 400px;
+    height: 140px;
+    background-color: var(--grey);
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 5px;
+    color: var(--white);
+
+}
+.btn button{
+    background-color: var(--gold);
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    color: var(--white);
+}
+.btn button:hover {
+    background-color: var(--dark-blue);
+}
+
+@media (max-width: 700px) {
+    .content {
+        width: 100%;
+        padding: 100px 0;
+        background: url('/images/contact.jpg');
+        background-position: left;
+        background-size: cover;
+        background-color: #000;
+        position: relative;
+    }
+}
+@media (max-width: 580px) {
+    .card {
+        width: 100%;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .row input {
+        width: 100%;
+    }
+    .row textarea {
+        width: 100%;
+    }
+}

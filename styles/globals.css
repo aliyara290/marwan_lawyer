@@ -12,6 +12,7 @@
   --gold: #c6993b;
   --white: #fff;
   --grey: #181818;
+  --light-grey: #252525;
   --dark: #090909;
 
   --fz-xxxs: 11px;
@@ -63,12 +64,12 @@ body {
 }
 ::-moz-selection {
   color: var(--white);
-  background: var(--dark-blue);
+  background: var(--gold);
 }
 
 ::selection {
   color: var(--white);
-  background: var(--dark-blue);
+  background: var(--gold);
 }
 
 ::-webkit-scrollbar {

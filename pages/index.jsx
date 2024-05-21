@@ -6,6 +6,8 @@ import Achievemnt from "@/components/home/Achievement";
 import Clients from "@/components/home/Clients";
 import Team from "@/components/home/Team";
 import Banner from "@/components/home/Banner";
+import Contact from "@/components/home/Contact";
+import Footer from "@/components/home/Footer";
 
 export default function Home() {
   return (
@@ -16,8 +18,10 @@ export default function Home() {
       <Services />
       <Achievemnt />
       <Clients />
-      <Team />
       <Banner />
+      <Team />
+      <Contact />
+      <Footer />
     </>
   );
 }
