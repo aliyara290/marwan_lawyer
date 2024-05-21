@@ -15,10 +15,12 @@ const Header = () => {
                 </div>
                 <div className={style.links}>
                     <ul>
-                        <li><a href="#about">من نحن؟</a></li>
-                        <li><a href="#services">خدماتنا</a></li>
-                        <li><a href="#clients">عملاؤنا</a></li>
-                        <li><a href="#booking">حجز موعد</a></li>
+                        <li><a href="#about">من نــحن؟</a></li>
+                        <li><a href="#about">إنجـازاتنـــا</a></li>
+                        <li><a href="#services">خدماتنـــا</a></li>
+                        <li><a href="#clients">عملاؤنــا</a></li>
+                        <li><a href="#clients">فريـــقنـا</a></li>
+                        <li><a href="#booking">حجــز موعـد</a></li>
                     </ul>
                 </div>
             </div>
