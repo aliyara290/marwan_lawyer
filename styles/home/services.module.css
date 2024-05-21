@@ -37,15 +37,16 @@
 }
 .card {
   width: 100%;
-  background-color: var(--grey);
+  background-color: #00000058;
   display: flex;
   align-items: center;
   flex-direction: column;
   color: aliceblue;
   padding: 40px 30px;
-  border-radius: 7px;
   transition: transform 0.4s ease;
   border-top: 5px solid var(--gold);
+  border-radius: 7px;
+  backdrop-filter: blur(40px);
 }
 
 .card:hover {
@@ -55,8 +56,10 @@
   padding-bottom: 30px;
 }
 .title {
-  padding-bottom: 30px;
-  font-size: var(--fz-xl);
+  padding-bottom: 40px;
+  font-size: var(--fz-lg);
+  color: var(--gold);
+  font-family: 'Bukrah';
 }
 .description p {
   line-height: 30px;

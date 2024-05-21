@@ -5,14 +5,14 @@ const Contact = () => {
     <div className={style.content} id="booking">
       <div className={style.container}>
         <div className={style.card}>
-          <h1>إستشــــرنـــــا</h1>
-          <span>أحصل على إستشارة مجانية من طرف أمهر الخبراء..</span>
+          <h1>أحجــز موعــــــد الآن</h1>
+          <span> لطلــب استشــارة قانــونــية</span>
           <form action="">
             <div className={style.row}>
-              <input type="text" placeholder="إسمك" required/>
+              <input type="text" placeholder="الإسم الكامل" required/>
             </div>
             <div className={style.row}>
-              <input type="text" placeholder="رقم هاتفك" required/>
+              <input type="text" placeholder="رقم الهاتف" required/>
             </div>
             <div className={style.row}>
               <textarea name="message" id="message" placeholder="رسالتك..." required></textarea>
