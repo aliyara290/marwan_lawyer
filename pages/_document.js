@@ -5,36 +5,23 @@ export default function Document() {
     <Html lang="ar" dir="rtl">
        <Head>
         <meta charSet="UTF-8" />
-        <meta
-          name="description"
-          content="سمايلي هي عيادة أسنان متخصصة في تحقيق الابتسامات الجميلة وتوفير خدمات طب الأسنان عالية الجودة. زورونا اليوم للحصول على أسنان صحية وجميلة."
-        />
         <link rel="preload" href="LyonArabicDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin></link>
         <link type="image/x-icon" rel="icon" href="/favicon.svg" />
-        <meta name="theme-color" content="#0080F7"></meta>
+        <meta name="theme-color" content="#181818"></meta>
 
-        <meta
-          property="og:title"
-          content="سمايلي - عيادة الأسنان المتخصصة في الابتسامة الجميلة"
-        />
-        <meta
-          property="og:description"
-          content="سمايلي هي عيادة أسنان متخصصة في تحقيق الابتسامات الجميلة وتوفير خدمات طب الأسنان عالية الجودة. زورونا اليوم للحصول على أسنان صحية وجميلة."
-        />
+        <title>شركة سليمان بن عبد العزيز للمحاماة</title>
+        <meta name="description" content="شركة سليمان بن عبد العزيز للمحاماة تقدم خدمات قانونية متكاملة تشمل الاستشارات القانونية والتمثيل القانوني في مختلف المجالات القانونية." />
+        
+        <meta property="og:title" content="شركة سليمان بن عبد العزيز للمحاماة" />
+        <meta property="og:description" content="شركة سليمان بن عبد العزيز للمحاماة تقدم خدمات قانونية متكاملة تشمل الاستشارات القانونية والتمثيل القانوني في مختلف المجالات القانونية." />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="تعيين رابط صورة العيادة هنا" />
-        <meta property="og:url" content="تعيين رابط الموقع هنا" />
-        <meta
-          name="twitter:title"
-          content="سمايلي - عيادة الأسنان المتخصصة في الابتسامة الجميلة"
-        />
-        <meta
-          name="twitter:description"
-          content="سمايلي هي عيادة أسنان متخصصة في تحقيق الابتسامات الجميلة وتوفير خدمات طب الأسنان عالية الجودة. زورونا اليوم للحصول على أسنان صحية وجميلة."
-        />
+        <meta property="og:url" content="https://www.example.com" />
+        <meta property="og:image" content="https://www.example.com/image.jpg" />  
+        
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="تعيين رابط صورة العيادة هنا" />
-        <title>سمايلي - عيادة الأسنان المتخصصة في الابتسامة الجميلة</title>
+        <meta name="twitter:title" content="شركة سليمان بن عبد العزيز للمحاماة" />
+        <meta name="twitter:description" content="شركة سليمان بن عبد العزيز للمحاماة تقدم خدمات قانونية متكاملة تشمل الاستشارات القانونية والتمثيل القانوني في مختلف المجالات القانونية." />
+        <meta name="twitter:image" content="https://www.example.com/image.jpg" />
       </Head>
       <body>
         <Main />

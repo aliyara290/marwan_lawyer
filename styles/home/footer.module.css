@@ -65,7 +65,7 @@
   display: flex;
 }
 .social ul li a svg:hover {
-  fill: var(--dark-blue);
+  fill: var(--white);
 }
 .map {
   width: 100%;

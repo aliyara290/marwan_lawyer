@@ -53,6 +53,11 @@ svg.active  svg {
     width: 90%;
   }
 }
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+}
 @media (max-width: 450px) {
   .question h2 {
     font-size: var(--fz-md);

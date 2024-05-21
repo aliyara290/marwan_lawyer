@@ -67,7 +67,7 @@ const Header = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.instagram.com/aromes_de_paris"
+                  href="https://www.instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -76,7 +76,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="https://web.facebook.com/p/Ar%C3%B4mes-de-Paris-100067833978879/?_rdc=1&_rdr"
+                  href="https://web.facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

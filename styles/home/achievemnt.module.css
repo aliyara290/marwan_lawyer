@@ -12,8 +12,14 @@
 .cards {
     padding-top: 80px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap: 20px;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+
 }
 .card {
     display: flex;
@@ -27,7 +33,7 @@
 }
 .card:hover {
     background-color: var(--light-grey);
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 .card:last-child {
     border: none;
@@ -47,3 +53,14 @@
 .card h2:last-child {
     font-size: var(--fz-sm);
 }
+@media (max-width: 600px) {
+    .content {
+      padding: 100px 0 0;
+    }
+    .container {
+      width: 95%;
+    }
+    .cards {
+        padding-top: 40px;
+    }
+  }

@@ -73,3 +73,11 @@
   left: 0;
   z-index: 10;
 }
+@media (max-width: 600px) {
+  .content {
+    padding: 100px 0;
+  }
+  .container {
+    width: 95%;
+  }
+}
