@@ -7,6 +7,7 @@ import Clients from "@/components/home/Clients";
 import Team from "@/components/home/Team";
 import Banner from "@/components/home/Banner";
 import Contact from "@/components/home/Contact";
+import Faqs from "@/components/home/Faqs";
 import Footer from "@/components/home/Footer";
 
 export default function Home() {
@@ -17,10 +18,11 @@ export default function Home() {
       <Intro />
       <Services />
       <Achievemnt />
-      <Clients />
+      {/* <Clients /> */}
       <Banner />
       <Team />
       <Contact />
+      <Faqs />
       <Footer />
     </>
   );

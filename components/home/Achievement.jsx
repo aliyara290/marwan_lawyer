@@ -3,7 +3,7 @@ import Heading from "@/components/Heading";
 
 const Achievemnt = () => {
   return (
-    <div className={style.content}>
+    <div className={style.content} id="achievemnt">
       <div className={style.container}>
         <Heading
           topHeading={"أبرز إنجازاتنا"}

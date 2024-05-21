@@ -2,7 +2,7 @@ import style from "@/styles/home/contact.module.css";
 
 const Contact = () => {
   return (
-    <div className={style.content} id="contact">
+    <div className={style.content} id="booking">
       <div className={style.container}>
         <div className={style.card}>
           <h1>إستشــــرنـــــا</h1>

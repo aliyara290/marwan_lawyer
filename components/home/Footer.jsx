@@ -6,7 +6,6 @@ const Footer = () => {
     <div className={style.content} id="contact">
       <div className={style.container}>
         <div className={style.info}>
-          
           <div className={style.left_part}>
             <div className={style.links}>
               <h2>معلومات الإتصال</h2>
@@ -214,9 +213,9 @@ const Footer = () => {
             </div>
             <div className={style.desc}>
               <p>
-                العناية بالأسنان ليست مجرد ابتسامة مشرقة؛ بل هي جزء أساسي من
-                الصحة الشاملة. الفحوصات الدورية وممارسات النظافة الشخصية ضرورية
-                لمنع الأمراض النظامية، مما يعكس دور الفم كمدخل للعافية.
+                يُعدّ مكتب المحاماة و المحامي ضروريين لحماية حقوقك ومصالحك
+                القانونية. إذا كنت تُواجه مشكلة قانونية، فمن المهم استشارة محامٍ
+                في أقرب وقت ممكن.
               </p>
             </div>
             <div className="mt-5">

@@ -1,7 +1,7 @@
 .content {
     width: 100%;
     padding: 50px 0;
-    background: url('/images/handshake.jpg');
+    background: url('/images/contact.jpg');
     background-position: center;
     background-size: cover;
     background-color: #000;
@@ -18,7 +18,7 @@
 .card {
     position: relative;
     z-index: 5;
-    background-color: var(--dark);
+    background-color: var(--grey);
     border-radius: 12px;
     overflow: hidden;
     display: flex;
@@ -53,7 +53,7 @@
 .row input {
     width: 400px;
     height: 50px;
-    background-color: var(--grey);
+    background-color: var(--light-grey);
     margin-bottom: 20px;
     padding: 5px 20px;
     border: none;
@@ -64,7 +64,7 @@
 .row textarea {
     width: 400px;
     height: 140px;
-    background-color: var(--grey);
+    background-color: var(--light-grey);
     margin-bottom: 20px;
     padding: 10px 20px;
     border: none;

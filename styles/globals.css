@@ -91,6 +91,9 @@ body {
   border: none;
 }
 
+svg.active {
+  rotate: 45deg;
+}
 /* Fonts faces */
 
 @font-face {

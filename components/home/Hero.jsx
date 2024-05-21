@@ -14,14 +14,6 @@ const Hero = () => {
           <div className="overflow-hidden">
             <h3>ثقــــــة في المملكــة العـربية السعوديــة</h3>
           </div>
-          {/* <div className={style.bg}>
-            <Image
-              src={"/images/dots.svg"}
-              alt="svg"
-              width={200}
-              height={200}
-            />
-          </div> */}
         </div>
       </div>
     </div>
