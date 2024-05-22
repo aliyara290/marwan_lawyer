@@ -7,7 +7,6 @@ export default function Document() {
         <meta charSet="UTF-8" />
         <title>شركة سليمان بن عبد العزيز للمحاماة</title>
         <meta name="description" content="شركة سليمان بن عبد العزيز للمحاماة تقدم خدمات قانونية متكاملة تشمل الاستشارات القانونية والتمثيل القانوني في مختلف المجالات القانونية." />
-        <link rel="preload" href="LyonArabicDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin></link>
         <link type="image/x-icon" rel="icon" href="/favicon.svg" />
         <link rel="apple-touch-icon" href="/favicon.svg" />
         <meta name="theme-color" content="#181818"></meta>

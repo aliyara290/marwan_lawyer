@@ -13,7 +13,6 @@ const Hero = () => {
       delay: 0.4,
       duration: 1,
       onComplete: () => {
-
         gsap.fromTo(
           ".ov-g5e4",
           {
