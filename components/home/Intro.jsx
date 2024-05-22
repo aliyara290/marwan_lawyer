@@ -40,7 +40,7 @@ const Intro = () => {
         duration: 0.8,
         scrollTrigger: {
           trigger: "#about",
-          start: "bottom bottom",
+          start: "center bottom",
           end: "bottom center",
         },
       }
