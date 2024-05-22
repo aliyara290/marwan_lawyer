@@ -1,10 +1,21 @@
 "use client";
 import { useEffect } from "react";
+import gsap from "gsap";
 import Link from "next/link";
 import style from "@/styles/home/header.module.css";
 import Image from "next/image";
 
 const Header = () => {
+  useEffect(() => {
+    gsap.fromTo('.nv_n4t5', {
+      top: '-100%',
+    }, {
+      top: 40,
+      delay: 0.4,
+      duration: 0.5,
+      opacity: 1,
+    })
+  }, []);
   useEffect(() => {
     const pagesLinks = document.querySelectorAll(".link");
     pagesLinks.forEach((link) => {
@@ -27,7 +38,7 @@ const Header = () => {
   return (
     <div className={style.content}>
       <div className={style.container}>
-        <div className={style.logo}>
+        <div className={`${style.logo} nv_n4t5`} id="logo">
           <Image src={"/images/logo.svg"} alt="pic" width={170} height={170} />
         </div>
         <div className={style.navigation} id="navigation">
@@ -87,7 +98,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          className={style.hamburger}
+          className={`${style.hamburger} nv_n4t5`}
           id="hamburger"
           onClick={() => handleClick()}
         >

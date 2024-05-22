@@ -30,6 +30,7 @@ const Title = ({
         opacity: 1,
         duration: 0.3,
         stagger: 0.4,
+        delay: 0.3,
         scrollTrigger: {
           trigger: triggerRef.current,
           start: "bottom bottom",
@@ -73,8 +74,7 @@ const Title = ({
       </div>
       {showSubHeading && (
         <div className={style.sub_heading}>
-          <span className={style.point}></span>
-          <span>{subHeading}</span>
+          <span className="head_part">{subHeading}</span>
         </div>
       )}
     </div>

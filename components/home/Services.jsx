@@ -1,8 +1,33 @@
+"use client";
+import { useEffect } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import style from "@/styles/home/services.module.css";
 import Heading from "@/components/Heading";
 import Image from "next/image";
 
 const Services = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.fromTo(
+      ".card__7429",
+      {
+        y: "40%",
+        opacity: 0,
+      },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.5,
+        stagger: 0.2,
+        scrollTrigger: {
+          trigger: ".card__7429",
+          start: "center bottom",
+          end: "bottom center",
+        },
+      }
+    );
+  }, []);
   const serv = [
     {
       icon: "/",
@@ -56,7 +81,7 @@ const Services = () => {
         />
         <div className={style.cards}>
           {serv.map((card, index) => (
-            <div className={style.card} key={index}>
+            <div className={`${style.card} card__7429`} key={index}>
               <div className={style.title}>
                 <h1>{card.title}</h1>
                 

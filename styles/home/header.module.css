@@ -15,6 +15,7 @@
   top: 50px;
   right: 50px;
     z-index: 2194812723;
+    opacity: 0;
 }
 
 .hamburger:hover.active .bar {
@@ -45,6 +46,8 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    opacity: 0;
+
   }
   .hamburger::after {
     content: '';

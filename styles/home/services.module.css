@@ -29,7 +29,7 @@
 .cards {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 40px;
   padding-top: 60px;
   position: relative;
@@ -47,6 +47,7 @@
   border-top: 5px solid var(--gold);
   border-radius: 7px;
   backdrop-filter: blur(40px);
+  opacity: 0;
 }
 
 .card:hover {
@@ -59,7 +60,7 @@
   padding-bottom: 40px;
   font-size: var(--fz-lg);
   color: var(--gold);
-  font-family: 'Bukrah';
+  font-family: "Bukrah";
 }
 .description p {
   line-height: 30px;
@@ -79,5 +80,8 @@
   }
   .container {
     width: 95%;
+  }
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   }
 }
